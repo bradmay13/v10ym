@@ -1,0 +1,25 @@
+{
+  "name": "v10ym",
+  "version": "1.0.0",
+  "description": "Vineyard 10th Ward YM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradmay13/v10ym.git"
+  },
+  "author": "brad may",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradmay13/v10ym/issues"
+  },
+  "homepage": "https://github.com/bradmay13/v10ym#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongoose": "^4.4.12",
+    "@google-cloud/datastore": "0.7.0"
+  }
+}
